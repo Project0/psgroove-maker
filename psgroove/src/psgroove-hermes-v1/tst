@@ -1,0 +1,79 @@
+make[1]: Entering directory `/mnt/epona/user/richie/Netzwerk/ps3/psjailbreak/psgroove-hermes'
+make[1]: Leaving directory `/mnt/epona/user/richie/Netzwerk/ps3/psjailbreak/psgroove-hermes'
+make[1]: Entering directory `/mnt/epona/user/richie/Netzwerk/ps3/psjailbreak/psgroove-hermes'
+
+-------- begin --------
+avr-gcc (Gentoo 4.4.4-r1 p1.1, pie-0.4.5) 4.4.4
+Copyright (C) 2010 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+
+Compiling C: psgroove.c
+avr-gcc -c -mmcu=at90usb646 -I. -gdwarf-2 -DF_CPU=16000000UL -DF_CLOCK=16000000UL -DBOARD=BOARD_USER -D USB_DEVICE_ONLY -D FIXED_CONTROL_ENDPOINT_SIZE=8 -D USE_FLASH_DESCRIPTORS -D MEMSPACE_FLASH=0 -D MEMSPACE_EEPROM=1 -D USE_STATIC_OPTIONS="(USB_DEVICE_OPT_FULLSPEED | USB_OPT_REG_ENABLED | USB_OPT_AUTO_PLL)" -Os -funsigned-char -funsigned-bitfields -ffunction-sections -fno-inline-small-functions -fpack-struct -fshort-enums -fno-strict-aliasing -Wall -Wstrict-prototypes -Wa,-adhlns=./psgroove.lst -Ilufa-lib/trunk/ -std=c99 -MMD -MP -MF .dep/psgroove.o.d psgroove.c -o psgroove.o 
+
+Compiling C: lufa-lib/trunk/LUFA/Drivers/USB/LowLevel/Device.c
+avr-gcc -c -mmcu=at90usb646 -I. -gdwarf-2 -DF_CPU=16000000UL -DF_CLOCK=16000000UL -DBOARD=BOARD_USER -D USB_DEVICE_ONLY -D FIXED_CONTROL_ENDPOINT_SIZE=8 -D USE_FLASH_DESCRIPTORS -D MEMSPACE_FLASH=0 -D MEMSPACE_EEPROM=1 -D USE_STATIC_OPTIONS="(USB_DEVICE_OPT_FULLSPEED | USB_OPT_REG_ENABLED | USB_OPT_AUTO_PLL)" -Os -funsigned-char -funsigned-bitfields -ffunction-sections -fno-inline-small-functions -fpack-struct -fshort-enums -fno-strict-aliasing -Wall -Wstrict-prototypes -Wa,-adhlns=./lufa-lib/trunk/LUFA/Drivers/USB/LowLevel/Device.lst -Ilufa-lib/trunk/ -std=c99 -MMD -MP -MF .dep/Device.o.d lufa-lib/trunk/LUFA/Drivers/USB/LowLevel/Device.c -o lufa-lib/trunk/LUFA/Drivers/USB/LowLevel/Device.o 
+
+Compiling C: lufa-lib/trunk/LUFA/Drivers/USB/LowLevel/Endpoint.c
+avr-gcc -c -mmcu=at90usb646 -I. -gdwarf-2 -DF_CPU=16000000UL -DF_CLOCK=16000000UL -DBOARD=BOARD_USER -D USB_DEVICE_ONLY -D FIXED_CONTROL_ENDPOINT_SIZE=8 -D USE_FLASH_DESCRIPTORS -D MEMSPACE_FLASH=0 -D MEMSPACE_EEPROM=1 -D USE_STATIC_OPTIONS="(USB_DEVICE_OPT_FULLSPEED | USB_OPT_REG_ENABLED | USB_OPT_AUTO_PLL)" -Os -funsigned-char -funsigned-bitfields -ffunction-sections -fno-inline-small-functions -fpack-struct -fshort-enums -fno-strict-aliasing -Wall -Wstrict-prototypes -Wa,-adhlns=./lufa-lib/trunk/LUFA/Drivers/USB/LowLevel/Endpoint.lst -Ilufa-lib/trunk/ -std=c99 -MMD -MP -MF .dep/Endpoint.o.d lufa-lib/trunk/LUFA/Drivers/USB/LowLevel/Endpoint.c -o lufa-lib/trunk/LUFA/Drivers/USB/LowLevel/Endpoint.o 
+
+Compiling C: lufa-lib/trunk/LUFA/Drivers/USB/LowLevel/Host.c
+avr-gcc -c -mmcu=at90usb646 -I. -gdwarf-2 -DF_CPU=16000000UL -DF_CLOCK=16000000UL -DBOARD=BOARD_USER -D USB_DEVICE_ONLY -D FIXED_CONTROL_ENDPOINT_SIZE=8 -D USE_FLASH_DESCRIPTORS -D MEMSPACE_FLASH=0 -D MEMSPACE_EEPROM=1 -D USE_STATIC_OPTIONS="(USB_DEVICE_OPT_FULLSPEED | USB_OPT_REG_ENABLED | USB_OPT_AUTO_PLL)" -Os -funsigned-char -funsigned-bitfields -ffunction-sections -fno-inline-small-functions -fpack-struct -fshort-enums -fno-strict-aliasing -Wall -Wstrict-prototypes -Wa,-adhlns=./lufa-lib/trunk/LUFA/Drivers/USB/LowLevel/Host.lst -Ilufa-lib/trunk/ -std=c99 -MMD -MP -MF .dep/Host.o.d lufa-lib/trunk/LUFA/Drivers/USB/LowLevel/Host.c -o lufa-lib/trunk/LUFA/Drivers/USB/LowLevel/Host.o 
+
+Compiling C: lufa-lib/trunk/LUFA/Drivers/USB/LowLevel/Pipe.c
+avr-gcc -c -mmcu=at90usb646 -I. -gdwarf-2 -DF_CPU=16000000UL -DF_CLOCK=16000000UL -DBOARD=BOARD_USER -D USB_DEVICE_ONLY -D FIXED_CONTROL_ENDPOINT_SIZE=8 -D USE_FLASH_DESCRIPTORS -D MEMSPACE_FLASH=0 -D MEMSPACE_EEPROM=1 -D USE_STATIC_OPTIONS="(USB_DEVICE_OPT_FULLSPEED | USB_OPT_REG_ENABLED | USB_OPT_AUTO_PLL)" -Os -funsigned-char -funsigned-bitfields -ffunction-sections -fno-inline-small-functions -fpack-struct -fshort-enums -fno-strict-aliasing -Wall -Wstrict-prototypes -Wa,-adhlns=./lufa-lib/trunk/LUFA/Drivers/USB/LowLevel/Pipe.lst -Ilufa-lib/trunk/ -std=c99 -MMD -MP -MF .dep/Pipe.o.d lufa-lib/trunk/LUFA/Drivers/USB/LowLevel/Pipe.c -o lufa-lib/trunk/LUFA/Drivers/USB/LowLevel/Pipe.o 
+
+Compiling C: lufa-lib/trunk/LUFA/Drivers/USB/LowLevel/USBController.c
+avr-gcc -c -mmcu=at90usb646 -I. -gdwarf-2 -DF_CPU=16000000UL -DF_CLOCK=16000000UL -DBOARD=BOARD_USER -D USB_DEVICE_ONLY -D FIXED_CONTROL_ENDPOINT_SIZE=8 -D USE_FLASH_DESCRIPTORS -D MEMSPACE_FLASH=0 -D MEMSPACE_EEPROM=1 -D USE_STATIC_OPTIONS="(USB_DEVICE_OPT_FULLSPEED | USB_OPT_REG_ENABLED | USB_OPT_AUTO_PLL)" -Os -funsigned-char -funsigned-bitfields -ffunction-sections -fno-inline-small-functions -fpack-struct -fshort-enums -fno-strict-aliasing -Wall -Wstrict-prototypes -Wa,-adhlns=./lufa-lib/trunk/LUFA/Drivers/USB/LowLevel/USBController.lst -Ilufa-lib/trunk/ -std=c99 -MMD -MP -MF .dep/USBController.o.d lufa-lib/trunk/LUFA/Drivers/USB/LowLevel/USBController.c -o lufa-lib/trunk/LUFA/Drivers/USB/LowLevel/USBController.o 
+
+Compiling C: lufa-lib/trunk/LUFA/Drivers/USB/LowLevel/USBInterrupt.c
+avr-gcc -c -mmcu=at90usb646 -I. -gdwarf-2 -DF_CPU=16000000UL -DF_CLOCK=16000000UL -DBOARD=BOARD_USER -D USB_DEVICE_ONLY -D FIXED_CONTROL_ENDPOINT_SIZE=8 -D USE_FLASH_DESCRIPTORS -D MEMSPACE_FLASH=0 -D MEMSPACE_EEPROM=1 -D USE_STATIC_OPTIONS="(USB_DEVICE_OPT_FULLSPEED | USB_OPT_REG_ENABLED | USB_OPT_AUTO_PLL)" -Os -funsigned-char -funsigned-bitfields -ffunction-sections -fno-inline-small-functions -fpack-struct -fshort-enums -fno-strict-aliasing -Wall -Wstrict-prototypes -Wa,-adhlns=./lufa-lib/trunk/LUFA/Drivers/USB/LowLevel/USBInterrupt.lst -Ilufa-lib/trunk/ -std=c99 -MMD -MP -MF .dep/USBInterrupt.o.d lufa-lib/trunk/LUFA/Drivers/USB/LowLevel/USBInterrupt.c -o lufa-lib/trunk/LUFA/Drivers/USB/LowLevel/USBInterrupt.o 
+
+Compiling C: lufa-lib/trunk/LUFA/Drivers/USB/HighLevel/ConfigDescriptor.c
+avr-gcc -c -mmcu=at90usb646 -I. -gdwarf-2 -DF_CPU=16000000UL -DF_CLOCK=16000000UL -DBOARD=BOARD_USER -D USB_DEVICE_ONLY -D FIXED_CONTROL_ENDPOINT_SIZE=8 -D USE_FLASH_DESCRIPTORS -D MEMSPACE_FLASH=0 -D MEMSPACE_EEPROM=1 -D USE_STATIC_OPTIONS="(USB_DEVICE_OPT_FULLSPEED | USB_OPT_REG_ENABLED | USB_OPT_AUTO_PLL)" -Os -funsigned-char -funsigned-bitfields -ffunction-sections -fno-inline-small-functions -fpack-struct -fshort-enums -fno-strict-aliasing -Wall -Wstrict-prototypes -Wa,-adhlns=./lufa-lib/trunk/LUFA/Drivers/USB/HighLevel/ConfigDescriptor.lst -Ilufa-lib/trunk/ -std=c99 -MMD -MP -MF .dep/ConfigDescriptor.o.d lufa-lib/trunk/LUFA/Drivers/USB/HighLevel/ConfigDescriptor.c -o lufa-lib/trunk/LUFA/Drivers/USB/HighLevel/ConfigDescriptor.o 
+
+Compiling C: lufa-lib/trunk/LUFA/Drivers/USB/HighLevel/DeviceStandardReq.c
+avr-gcc -c -mmcu=at90usb646 -I. -gdwarf-2 -DF_CPU=16000000UL -DF_CLOCK=16000000UL -DBOARD=BOARD_USER -D USB_DEVICE_ONLY -D FIXED_CONTROL_ENDPOINT_SIZE=8 -D USE_FLASH_DESCRIPTORS -D MEMSPACE_FLASH=0 -D MEMSPACE_EEPROM=1 -D USE_STATIC_OPTIONS="(USB_DEVICE_OPT_FULLSPEED | USB_OPT_REG_ENABLED | USB_OPT_AUTO_PLL)" -Os -funsigned-char -funsigned-bitfields -ffunction-sections -fno-inline-small-functions -fpack-struct -fshort-enums -fno-strict-aliasing -Wall -Wstrict-prototypes -Wa,-adhlns=./lufa-lib/trunk/LUFA/Drivers/USB/HighLevel/DeviceStandardReq.lst -Ilufa-lib/trunk/ -std=c99 -MMD -MP -MF .dep/DeviceStandardReq.o.d lufa-lib/trunk/LUFA/Drivers/USB/HighLevel/DeviceStandardReq.c -o lufa-lib/trunk/LUFA/Drivers/USB/HighLevel/DeviceStandardReq.o 
+
+Compiling C: lufa-lib/trunk/LUFA/Drivers/USB/HighLevel/Events.c
+avr-gcc -c -mmcu=at90usb646 -I. -gdwarf-2 -DF_CPU=16000000UL -DF_CLOCK=16000000UL -DBOARD=BOARD_USER -D USB_DEVICE_ONLY -D FIXED_CONTROL_ENDPOINT_SIZE=8 -D USE_FLASH_DESCRIPTORS -D MEMSPACE_FLASH=0 -D MEMSPACE_EEPROM=1 -D USE_STATIC_OPTIONS="(USB_DEVICE_OPT_FULLSPEED | USB_OPT_REG_ENABLED | USB_OPT_AUTO_PLL)" -Os -funsigned-char -funsigned-bitfields -ffunction-sections -fno-inline-small-functions -fpack-struct -fshort-enums -fno-strict-aliasing -Wall -Wstrict-prototypes -Wa,-adhlns=./lufa-lib/trunk/LUFA/Drivers/USB/HighLevel/Events.lst -Ilufa-lib/trunk/ -std=c99 -MMD -MP -MF .dep/Events.o.d lufa-lib/trunk/LUFA/Drivers/USB/HighLevel/Events.c -o lufa-lib/trunk/LUFA/Drivers/USB/HighLevel/Events.o 
+
+Compiling C: lufa-lib/trunk/LUFA/Drivers/USB/HighLevel/EndpointStream.c
+avr-gcc -c -mmcu=at90usb646 -I. -gdwarf-2 -DF_CPU=16000000UL -DF_CLOCK=16000000UL -DBOARD=BOARD_USER -D USB_DEVICE_ONLY -D FIXED_CONTROL_ENDPOINT_SIZE=8 -D USE_FLASH_DESCRIPTORS -D MEMSPACE_FLASH=0 -D MEMSPACE_EEPROM=1 -D USE_STATIC_OPTIONS="(USB_DEVICE_OPT_FULLSPEED | USB_OPT_REG_ENABLED | USB_OPT_AUTO_PLL)" -Os -funsigned-char -funsigned-bitfields -ffunction-sections -fno-inline-small-functions -fpack-struct -fshort-enums -fno-strict-aliasing -Wall -Wstrict-prototypes -Wa,-adhlns=./lufa-lib/trunk/LUFA/Drivers/USB/HighLevel/EndpointStream.lst -Ilufa-lib/trunk/ -std=c99 -MMD -MP -MF .dep/EndpointStream.o.d lufa-lib/trunk/LUFA/Drivers/USB/HighLevel/EndpointStream.c -o lufa-lib/trunk/LUFA/Drivers/USB/HighLevel/EndpointStream.o 
+
+Compiling C: lufa-lib/trunk/LUFA/Drivers/USB/HighLevel/HostStandardReq.c
+avr-gcc -c -mmcu=at90usb646 -I. -gdwarf-2 -DF_CPU=16000000UL -DF_CLOCK=16000000UL -DBOARD=BOARD_USER -D USB_DEVICE_ONLY -D FIXED_CONTROL_ENDPOINT_SIZE=8 -D USE_FLASH_DESCRIPTORS -D MEMSPACE_FLASH=0 -D MEMSPACE_EEPROM=1 -D USE_STATIC_OPTIONS="(USB_DEVICE_OPT_FULLSPEED | USB_OPT_REG_ENABLED | USB_OPT_AUTO_PLL)" -Os -funsigned-char -funsigned-bitfields -ffunction-sections -fno-inline-small-functions -fpack-struct -fshort-enums -fno-strict-aliasing -Wall -Wstrict-prototypes -Wa,-adhlns=./lufa-lib/trunk/LUFA/Drivers/USB/HighLevel/HostStandardReq.lst -Ilufa-lib/trunk/ -std=c99 -MMD -MP -MF .dep/HostStandardReq.o.d lufa-lib/trunk/LUFA/Drivers/USB/HighLevel/HostStandardReq.c -o lufa-lib/trunk/LUFA/Drivers/USB/HighLevel/HostStandardReq.o 
+
+Compiling C: lufa-lib/trunk/LUFA/Drivers/USB/HighLevel/PipeStream.c
+avr-gcc -c -mmcu=at90usb646 -I. -gdwarf-2 -DF_CPU=16000000UL -DF_CLOCK=16000000UL -DBOARD=BOARD_USER -D USB_DEVICE_ONLY -D FIXED_CONTROL_ENDPOINT_SIZE=8 -D USE_FLASH_DESCRIPTORS -D MEMSPACE_FLASH=0 -D MEMSPACE_EEPROM=1 -D USE_STATIC_OPTIONS="(USB_DEVICE_OPT_FULLSPEED | USB_OPT_REG_ENABLED | USB_OPT_AUTO_PLL)" -Os -funsigned-char -funsigned-bitfields -ffunction-sections -fno-inline-small-functions -fpack-struct -fshort-enums -fno-strict-aliasing -Wall -Wstrict-prototypes -Wa,-adhlns=./lufa-lib/trunk/LUFA/Drivers/USB/HighLevel/PipeStream.lst -Ilufa-lib/trunk/ -std=c99 -MMD -MP -MF .dep/PipeStream.o.d lufa-lib/trunk/LUFA/Drivers/USB/HighLevel/PipeStream.c -o lufa-lib/trunk/LUFA/Drivers/USB/HighLevel/PipeStream.o 
+
+Compiling C: lufa-lib/trunk/LUFA/Drivers/USB/HighLevel/USBTask.c
+avr-gcc -c -mmcu=at90usb646 -I. -gdwarf-2 -DF_CPU=16000000UL -DF_CLOCK=16000000UL -DBOARD=BOARD_USER -D USB_DEVICE_ONLY -D FIXED_CONTROL_ENDPOINT_SIZE=8 -D USE_FLASH_DESCRIPTORS -D MEMSPACE_FLASH=0 -D MEMSPACE_EEPROM=1 -D USE_STATIC_OPTIONS="(USB_DEVICE_OPT_FULLSPEED | USB_OPT_REG_ENABLED | USB_OPT_AUTO_PLL)" -Os -funsigned-char -funsigned-bitfields -ffunction-sections -fno-inline-small-functions -fpack-struct -fshort-enums -fno-strict-aliasing -Wall -Wstrict-prototypes -Wa,-adhlns=./lufa-lib/trunk/LUFA/Drivers/USB/HighLevel/USBTask.lst -Ilufa-lib/trunk/ -std=c99 -MMD -MP -MF .dep/USBTask.o.d lufa-lib/trunk/LUFA/Drivers/USB/HighLevel/USBTask.c -o lufa-lib/trunk/LUFA/Drivers/USB/HighLevel/USBTask.o 
+
+Compiling C: lufa-lib/trunk/LUFA/Drivers/USB/Class/Host/HIDParser.c
+avr-gcc -c -mmcu=at90usb646 -I. -gdwarf-2 -DF_CPU=16000000UL -DF_CLOCK=16000000UL -DBOARD=BOARD_USER -D USB_DEVICE_ONLY -D FIXED_CONTROL_ENDPOINT_SIZE=8 -D USE_FLASH_DESCRIPTORS -D MEMSPACE_FLASH=0 -D MEMSPACE_EEPROM=1 -D USE_STATIC_OPTIONS="(USB_DEVICE_OPT_FULLSPEED | USB_OPT_REG_ENABLED | USB_OPT_AUTO_PLL)" -Os -funsigned-char -funsigned-bitfields -ffunction-sections -fno-inline-small-functions -fpack-struct -fshort-enums -fno-strict-aliasing -Wall -Wstrict-prototypes -Wa,-adhlns=./lufa-lib/trunk/LUFA/Drivers/USB/Class/Host/HIDParser.lst -Ilufa-lib/trunk/ -std=c99 -MMD -MP -MF .dep/HIDParser.o.d lufa-lib/trunk/LUFA/Drivers/USB/Class/Host/HIDParser.c -o lufa-lib/trunk/LUFA/Drivers/USB/Class/Host/HIDParser.o 
+
+Linking: psgroove.elf
+avr-gcc -mmcu=at90usb646 -I. -gdwarf-2 -DF_CPU=16000000UL -DF_CLOCK=16000000UL -DBOARD=BOARD_USER -D USB_DEVICE_ONLY -D FIXED_CONTROL_ENDPOINT_SIZE=8 -D USE_FLASH_DESCRIPTORS -D MEMSPACE_FLASH=0 -D MEMSPACE_EEPROM=1 -D USE_STATIC_OPTIONS="(USB_DEVICE_OPT_FULLSPEED | USB_OPT_REG_ENABLED | USB_OPT_AUTO_PLL)" -Os -funsigned-char -funsigned-bitfields -ffunction-sections -fno-inline-small-functions -fpack-struct -fshort-enums -fno-strict-aliasing -Wall -Wstrict-prototypes -Wa,-adhlns=psgroove.o -Ilufa-lib/trunk/ -std=c99 -MMD -MP -MF .dep/psgroove.elf.d psgroove.o lufa-lib/trunk/LUFA/Drivers/USB/LowLevel/Device.o lufa-lib/trunk/LUFA/Drivers/USB/LowLevel/Endpoint.o lufa-lib/trunk/LUFA/Drivers/USB/LowLevel/Host.o lufa-lib/trunk/LUFA/Drivers/USB/LowLevel/Pipe.o lufa-lib/trunk/LUFA/Drivers/USB/LowLevel/USBController.o lufa-lib/trunk/LUFA/Drivers/USB/LowLevel/USBInterrupt.o lufa-lib/trunk/LUFA/Drivers/USB/HighLevel/ConfigDescriptor.o lufa-lib/trunk/LUFA/Drivers/USB/HighLevel/DeviceStandardReq.o lufa-lib/trunk/LUFA/Drivers/USB/HighLevel/Events.o lufa-lib/trunk/LUFA/Drivers/USB/HighLevel/EndpointStream.o lufa-lib/trunk/LUFA/Drivers/USB/HighLevel/HostStandardReq.o lufa-lib/trunk/LUFA/Drivers/USB/HighLevel/PipeStream.o lufa-lib/trunk/LUFA/Drivers/USB/HighLevel/USBTask.o lufa-lib/trunk/LUFA/Drivers/USB/Class/Host/HIDParser.o --output psgroove.elf -Wl,-Map=psgroove.map,--cref -Wl,--relax  -Wl,--gc-sections     -lm
+
+Creating load file for Flash: psgroove.hex
+avr-objcopy -O ihex -R .eeprom -R .fuse -R .lock psgroove.elf psgroove.hex
+
+Creating load file for EEPROM: psgroove.eep
+avr-objcopy -j .eeprom --set-section-flags=.eeprom="alloc,load" \
+	--change-section-lma .eeprom=0 --no-change-warnings -O ihex psgroove.elf psgroove.eep || exit 0
+
+Creating Extended Listing: psgroove.lss
+avr-objdump -h -S -z psgroove.elf > psgroove.lss
+
+Creating Symbol Table: psgroove.sym
+avr-nm -n psgroove.elf > psgroove.sym
+
+Size after:
+   text	   data	    bss	    dec	    hex	filename
+  11924	     48	     37	  12009	   2ee9	psgroove.elf
+
+-------- end --------
+
+make[1]: Leaving directory `/mnt/epona/user/richie/Netzwerk/ps3/psjailbreak/psgroove-hermes'
